@@ -1,0 +1,12 @@
+\babel@toc {spanish}{}\relax 
+\hspace {-7.5mm} \textbf {Capítulos}
+\hfill \textbf {P\'agina} \par 
+\vspace {-2mm} \hspace {-7.5mm} \hrule \par 
+\contentsline {part}{I\hspace {1em}Part I: English}{5}{}%
+\contentsline {chapter}{\numberline {1}Introduction}{6}{}%
+\contentsline {chapter}{\numberline {2}The Example}{11}{}%
+\contentsline {chapter}{\numberline {3}NONE obvious properties: as I could experiment}{12}{}%
+\contentsline {part}{II\hspace {1em}Parte II: Español}{13}{}%
+\contentsline {chapter}{\numberline {4}Introducción}{14}{}%
+\contentsline {chapter}{\numberline {5}El ejemplo}{19}{}%
+\contentsline {chapter}{\numberline {6}Propiedades NO obvias: como pude experimentar}{20}{}%

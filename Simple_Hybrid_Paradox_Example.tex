@@ -1,0 +1,78 @@
+\documentclass[notitlepage]{report}
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
+
+%Para usar colores en las tablas:
+\usepackage{color}
+%\usepackage{graphicx} DUPLICADO
+\usepackage{epsfig}
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage[table]{xcolor}
+%Fin de pacquetes para usar colores en las tablas
+
+
+\usepackage{titling}
+\usepackage{lipsum}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{pdfpages}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\setlength{\parskip}{2mm}
+\usepackage{graphicx}
+\graphicspath{ {../Imagenes/Editadas/} } 
+
+%Definiendo colores:
+\definecolor{lightgray}{gray}{0.9}
+\definecolor{myblue}{RGB}{180,241,231}
+\definecolor{myred}{RGB}{241,121,108}
+\definecolor{myyellow}{RGB}{245,239,122}
+%Fin de definicion de colores:
+
+
+\pretitle{\begin{center}\Huge\bfseries}
+	\posttitle{\par\end{center}\vskip 0.5em}
+\preauthor{\begin{center}\Large\ttfamily}
+	\postauthor{\end{center}}
+\predate{\par\large\centering}
+\postdate{\par}
+
+\title{P.I.0.5 Simple Hybrid Paradox Example.\\`The siege' and how is related to TPI \\ \Large{English/Español}}
+\author{Juan Carlos Caso Alonso \& Francisco Mario Cruz Almeida}
+%\date{\today}
+\date{19 January/Enero 2023}
+
+%\renewcommand{\chaptername}{C.-}
+%\usepackage{fancyhdr}
+
+\addto\captionsspanish{\renewcommand{\chaptername}{C.-}}
+
+\begin{document}
+	\maketitle
+	\thispagestyle{empty}
+	
+	\input{CAPITULOS/ABSTRACT/abstract_ENG.tex}
+	\input{CAPITULOS/ABSTRACT/abstract_ESP.tex}
+		
+	\addtocontents{toc}{\hspace{-7.5mm} \textbf{Capítulos}}
+	\addtocontents{toc}{\hfill \textbf{P\'agina} \par}
+	\addtocontents{toc}{\vspace{-2mm} \hspace{-7.5mm} \hrule \par}
+	
+	\tableofcontents
+	
+	\part{Part I: English}
+	
+	\input{CAPITULOS/Part_I_English/CAP_I_Introduction/Cap_I_ENG_Introduction.tex}
+	\input{CAPITULOS/Part_I_English/CAP_II_The_Example/Cap_II_ENG_The_Example.tex}
+	\input{CAPITULOS/Part_I_English/CAP_III_XXX/Cap_III_ENG_XXX.tex}
+
+	
+	\part{Parte II: Español}
+	
+	\input{CAPITULOS/Part_II_Español/CAP_I_Introduccion/Cap_I_ESP_Introduccion.tex}
+	\input{CAPITULOS/Part_II_Español/CAP_II_El_Ejemplo/Cap_II_ESP_EL_Ejemplo.tex}
+	\input{CAPITULOS/Part_II_Español/CAP_III_XXX/Cap_III_ESP_XXX.tex}
+	
+\end{document}
