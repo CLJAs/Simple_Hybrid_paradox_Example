@@ -8,5 +8,5 @@
 \contentsline {chapter}{\numberline {3}NONE obvious properties: as I could experiment}{12}{}%
 \contentsline {part}{II\hspace {1em}Parte II: Español}{13}{}%
 \contentsline {chapter}{\numberline {4}Introducción}{14}{}%
-\contentsline {chapter}{\numberline {5}El ejemplo}{19}{}%
-\contentsline {chapter}{\numberline {6}Propiedades NO obvias: como pude experimentar}{20}{}%
+\contentsline {chapter}{\numberline {5}El ejemplo}{18}{}%
+\contentsline {chapter}{\numberline {6}Propiedades NO obvias: como pude experimentar}{19}{}%
